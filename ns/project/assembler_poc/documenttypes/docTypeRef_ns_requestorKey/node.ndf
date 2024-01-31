@@ -10,10 +10,10 @@
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">m.tenbrinke@dmg.eu</value>
         <value name="createdByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
-        <number name="createdDate" type="Long">1706712204347</number>
+        <number name="createdDate" type="Long">1706712327896</number>
         <value name="lastModifiedBy">m.tenbrinke@dmg.eu</value>
         <value name="lastModifiedByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
-        <number name="lastModifiedDate" type="Long">1706712204347</number>
+        <number name="lastModifiedDate" type="Long">1706712327896</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -22,8 +22,8 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">53e771bcc97d4a2c820f5e26b07bc053</value>
-    <value name="docTypeDomain">5f3bcc40c9524fa895f18daa68e1ad7f</value>
+    <value name="schemaDomain">ea1f861a9fd747a39edab8989e86bf74</value>
+    <value name="docTypeDomain">4ebc5e68550d46f5a05b2e876df2fb0c</value>
     <value name="originURI">getAssembler_body.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">

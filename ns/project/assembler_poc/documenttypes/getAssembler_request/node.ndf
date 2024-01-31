@@ -4,16 +4,16 @@
   <record name="record" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_nsName">project.assembler_poc.documenttypes:docTypeRef_ns_userAccountKey</value>
+    <value name="node_nsName">project.assembler_poc.documenttypes:getAssembler_request</value>
     <value name="node_pkg">Assembler_PoCProject</value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">m.tenbrinke@dmg.eu</value>
         <value name="createdByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
-        <number name="createdDate" type="Long">1706712327908</number>
+        <number name="createdDate" type="Long">1706712327885</number>
         <value name="lastModifiedBy">m.tenbrinke@dmg.eu</value>
         <value name="lastModifiedByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
-        <number name="lastModifiedDate" type="Long">1706712327908</number>
+        <number name="lastModifiedDate" type="Long">1706712327890</number>
       </record>
     </record>
     <value name="is_public">false</value>
@@ -23,51 +23,24 @@
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
     <value name="schemaDomain">ea1f861a9fd747a39edab8989e86bf74</value>
-    <value name="docTypeDomain">4ebc5e68550d46f5a05b2e876df2fb0c</value>
     <value name="originURI">getAssembler_body.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">userId</value>
-        <value name="field_type">string</value>
-        <value name="field_dim">0</value>
-        <record name="field_content_type" javaclass="com.wm.util.Values">
-          <value name="contentType">1</value>
-          <value name="internalType">reference</value>
-          <value name="dataTypeVersion">dtVersion2</value>
-          <array name="targetNames" type="record" depth="1">
-            <record javaclass="com.wm.util.Values">
-              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-              <value name="ncName">string</value>
-            </record>
-          </array>
-        </record>
-        <value name="nillable">false</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">applicationId</value>
+        <value name="field_name">ns:getAssembler</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="nillable">false</value>
+        <value name="field_xmlns">http://www.dmg.eu/body</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.assembler_poc.documenttypes:docTypeRef_ns_applicationKey</value>
+        <value name="rec_ref">project.assembler_poc.documenttypes:docTypeRef_ns_getAssemblerType</value>
       </record>
     </array>
-    <record name="schemaType" javaclass="com.wm.util.Values">
-      <value name="xmlns">http://www.dmg.eu/body</value>
-      <value name="ncName">userAccountKey</value>
-    </record>
-    <value name="schemaRegistered">true</value>
     <value name="modifiable">false</value>
     <value name="updateRSD">true</value>
   </record>
