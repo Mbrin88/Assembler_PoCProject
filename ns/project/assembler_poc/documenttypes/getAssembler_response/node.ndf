@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1706712284698</number>
         <value name="lastModifiedBy">m.tenbrinke@dmg.eu</value>
         <value name="lastModifiedByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
-        <number name="lastModifiedDate" type="Long">1706712284702</number>
+        <number name="lastModifiedDate" type="Long">1706712288813</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,18 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">166a04cde36642a3b4a3ea34b89cdb92</value>
+    <value name="schemaDomain">6372d45ea3034649a5a7205e9f467ed4</value>
     <value name="originURI">getAssembler_body.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_2126496408_stage00.projects.fl813819b83bd8aec0452020.documenttypes:docTypeRef_ns_getAssemblerResponseType</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">ns:getAssemblerResponse</value>
         <value name="field_type">recref</value>
@@ -38,7 +45,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.assembler_poc.documenttypes:docTypeRef_ns_getAssemblerResponseType</value>
+        <value name="rec_ref">fld_2126496408_stage00.projects.fl813819b83bd8aec0452020.documenttypes:docTypeRef_ns_getAssemblerResponseType</value>
       </record>
     </array>
     <value name="modifiable">false</value>
