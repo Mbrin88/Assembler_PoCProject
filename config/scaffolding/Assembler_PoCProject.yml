@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Assembler_PoCProject
+  gitServerName: Mathijs GitHub
+  gitUrl: https://github.com/Mbrin88/Assembler_PoCProject
+  gitUsername: Mbrin88
+  gitBranch: main
