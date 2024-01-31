@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.assembler_poc.documenttypes:docTypeRef_ns_expertiseInfo</value>
+    <value name="node_pkg">Assembler_PoCProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">m.tenbrinke@dmg.eu</value>
+        <value name="createdByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
+        <number name="createdDate" type="Long">1706712284736</number>
+        <value name="lastModifiedBy">m.tenbrinke@dmg.eu</value>
+        <value name="lastModifiedByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
+        <number name="lastModifiedDate" type="Long">1706712284736</number>
+      </record>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">166a04cde36642a3b4a3ea34b89cdb92</value>
+    <value name="docTypeDomain">40f7694e5a25443da0be77b28134b301</value>
+    <value name="originURI">getAssembler_body.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">expertiseInfo</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">1</value>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="is_soap_array_encoding_used">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">project.assembler_poc.documenttypes:docTypeRef_ns_expertiseInfoArray</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">http://www.dmg.eu/body</value>
+      <value name="ncName">expertiseInfo</value>
+    </record>
+    <value name="schemaRegistered">true</value>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
