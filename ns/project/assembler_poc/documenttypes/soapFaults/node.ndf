@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.assembler_poc.documenttypes:soapFaults</value>
+    <value name="node_pkg">Assembler_PoCProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">m.tenbrinke@dmg.eu</value>
+        <value name="createdByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
+        <number name="createdDate" type="Long">1706779079632</number>
+        <value name="lastModifiedBy">m.tenbrinke@dmg.eu</value>
+        <value name="lastModifiedByUserId">3b3a4ee73b1e43d39456e8b0cccabe06</value>
+        <number name="lastModifiedDate" type="Long">1706779079638</number>
+      </record>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">16a5556beaa742ed84bc254b68160410</value>
+    <value name="originURI">soapFault.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">ns:faults</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">http://www.dmg.eu/fault</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">project.assembler_poc.documenttypes:docTypeRef_ns_soapFaultType</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
